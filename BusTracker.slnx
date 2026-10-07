@@ -1,0 +1,10 @@
+<Solution>
+  <Folder Name="/src/">
+    <Project Path="src/BusTracker.Api/BusTracker.Api.csproj" />
+    <Project Path="src/BusTracker.Core/BusTracker.Core.csproj" />
+    <Project Path="src/BusTracker.Infrastructure/BusTracker.Infrastructure.csproj" />
+  </Folder>
+  <Folder Name="/tests/">
+    <Project Path="tests/BusTracker.Tests/BusTracker.Tests.csproj" />
+  </Folder>
+</Solution>
