@@ -1,0 +1,15 @@
+services:
+  db:
+    image: postgres:17
+    container_name: bustracker-db
+    environment:
+      POSTGRES_USER: bustracker
+      POSTGRES_PASSWORD: dev_password // Change this !!!
+      POSTGRES_DB: bustracker
+    ports:
+      - "5432:5432"
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+
+volumes:
+  pgdata:
